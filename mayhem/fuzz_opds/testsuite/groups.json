@@ -1,0 +1,16 @@
+{
+  "metadata": {"title": "Home"},
+  "navigation": [{"title": "Browse", "href": "/browse", "type": "application/opds+json"}],
+  "groups": [
+    {"metadata": {"title": "Featured"},
+     "links": [{"rel": "self", "href": "/featured", "title": "Featured", "type": "application/opds+json"}],
+     "publications": [
+       {"metadata": {"title": "Moby-Dick", "author": {"name": "Herman Melville"}},
+        "links": [{"rel": "http://opds-spec.org/acquisition", "href": "/books/moby.epub", "type": "application/epub+zip"}]},
+       {"metadata": {"title": "Emma", "author": {"name": "Jane Austen"}},
+        "links": [{"rel": "http://opds-spec.org/acquisition/open-access", "href": "/books/emma.epub", "type": "application/epub+zip"}]}]},
+    {"metadata": {"title": "Categories"},
+     "navigation": [{"title": "Fiction", "href": "/cat/fiction", "type": "application/opds+json"},
+                    {"title": "Science", "href": "/cat/science", "type": "application/opds+json"}]}
+  ]
+}

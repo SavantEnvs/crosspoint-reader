@@ -1,0 +1,5 @@
+Windows line endings
+second line
+
+    indented para with  double spaces
+end

@@ -1,0 +1,7 @@
+™{
+      "tag_name": "v1.0.0",
+      "assets": [
+        {"name": "source.zip", "browser_download_url": "https://example.com/src.zip", "size": 1000},
+        {"name": "docs.tar.gz", "browser_download_url": "https://example.com/docs.tar.gz", "size": 2000}
+      ]
+    }

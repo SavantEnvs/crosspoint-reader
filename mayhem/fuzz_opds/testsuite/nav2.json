@@ -1,0 +1,13 @@
+{
+  "metadata": {"title": "Example OPDS 2 Catalog", "modified": "2026-01-01T00:00:00Z"},
+  "links": [
+    {"rel": "self", "href": "/opds2", "type": "application/opds+json"},
+    {"rel": "search", "href": "/opds2/search{?query}", "type": "application/opds+json", "templated": true},
+    {"rel": "http://opds-spec.org/shelf", "href": "/opds2/shelf", "type": "application/opds+json"}
+  ],
+  "navigation": [
+    {"title": "Popular", "href": "/opds2/popular", "type": "application/opds+json", "rel": "current"},
+    {"title": "All titles", "href": "/opds2/all", "type": "application/opds+json"},
+    {"title": {"en": "Authors", "fr": "Auteurs"}, "href": "/opds2/authors", "type": "application/opds+json"}
+  ]
+}

@@ -1,0 +1,8 @@
+f{
+      "tag_name": "v3.2",
+      "assets": [{
+        "name": "firmware.bin",
+        "size": 4444,
+        "browser_download_url": "https://example.com/fw3.bin"
+      }]
+    }

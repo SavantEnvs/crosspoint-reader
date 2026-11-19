@@ -1,0 +1,4 @@
+# Build context for mayhem/Dockerfile: keep .git (the image carries full history); drop local build trees.
+mayhem/build-fuzz
+mayhem/build-tests
+.pio

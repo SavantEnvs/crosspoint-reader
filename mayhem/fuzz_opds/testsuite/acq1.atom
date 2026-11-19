@@ -1,0 +1,39 @@
+*<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+  <title>New releases</title>
+  <id>urn:example:new</id>
+  <opensearch:totalResults>137</opensearch:totalResults>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:startIndex>26</opensearch:startIndex>
+  <link rel="first" href="/opds/new?page=1" type="application/atom+xml"/>
+  <link rel="previous" href="/opds/new?page=1" type="application/atom+xml"/>
+  <link rel="next" href="/opds/new?page=3" type="application/atom+xml"/>
+  <link rel="last" href="/opds/new?page=6" type="application/atom+xml"/>
+  <link rel="http://opds-spec.org/facet" href="/opds/new?sort=title" title="Title" opds:facetGroup="Sort" thr:count="12" xmlns:thr="http://purl.org/syndication/thread/1.0"/>
+  <link rel="http://opds-spec.org/facet" href="/opds/new?sort=date" title="Date" opds:facetGroup="Sort" opds:activeFacet="true"/>
+  <entry>
+    <title>Pride and Prejudice</title>
+    <id>urn:isbn:9780141439518</id>
+    <author><name>Jane Austen</name><uri>http://example.org/a/1</uri></author>
+    <dc:language>en</dc:language>
+    <summary type="html">&lt;p&gt;A classic &lt;b&gt;novel&lt;/b&gt; of manners.&lt;/p&gt;</summary>
+    <link rel="http://opds-spec.org/image" href="/covers/1.jpg" type="image/jpeg"/>
+    <link rel="http://opds-spec.org/image/thumbnail" href="/covers/1t.jpg" type="image/jpeg"/>
+    <link rel="http://opds-spec.org/acquisition/open-access" href="/books/1.epub" type="application/epub+zip"/>
+    <link rel="http://opds-spec.org/acquisition/open-access" href="/books/1.pdf" type="application/pdf"/>
+  </entry>
+  <entry>
+    <title>Paid Book</title>
+    <id>urn:uuid:aaaa</id>
+    <author><name>Some Writer</name></author>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Buy now <em>today</em></div></content>
+    <link rel="http://opds-spec.org/acquisition/buy" href="/buy/2.epub" type="application/epub+zip"><opds:price currencycode="EUR">4.99</opds:price></link>
+    <link rel="http://opds-spec.org/acquisition/sample" href="/sample/2.epub" type="application/epub+zip"/>
+  </entry>
+  <entry>
+    <title>Borrowable</title>
+    <id>urn:uuid:bbbb</id>
+    <link rel="http://opds-spec.org/acquisition/borrow" href="/borrow/3" type="application/atom+xml;type=entry;profile=opds-catalog"/>
+    <link rel="http://opds-spec.org/acquisition" href="/books/3.lcpl" type="application/vnd.readium.lcp.license.v1.0+json"/>
+  </entry>
+</feed>

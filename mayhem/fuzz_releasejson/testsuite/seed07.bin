@@ -1,0 +1,9 @@
+w{
+      "name": "Release",
+      "assets": [{
+        "name": "firmware.bin",
+        "browser_download_url": "https://example.com/fw.bin",
+        "size": 5555
+      }],
+      "tag_name": "v4.0"
+    }

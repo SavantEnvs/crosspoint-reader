@@ -1,0 +1,12 @@
+project: savantenvs/crosspoint-reader
+target: fuzz_contentopf
+duration: 1200
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_contentopf/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_contentopf
+    libfuzzer: true
+    timeout: 5

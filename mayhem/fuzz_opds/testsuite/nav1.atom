@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+  <id>urn:uuid:433a5d6a-0b8c-4933-af6e-55f3b0d9ca12</id>
+  <title>Example Catalog</title>
+  <updated>2026-01-01T00:00:00Z</updated>
+  <link rel="self" href="/opds" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="start" href="/opds" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="search" href="/opds/search?q={searchTerms}" type="application/atom+xml"/>
+  <link rel="search" href="/opds/opensearch.xml" type="application/opensearchdescription+xml"/>
+  <link rel="http://opds-spec.org/shelf" href="/opds/shelf" type="application/atom+xml;profile=opds-catalog"/>
+  <entry>
+    <title>New releases</title>
+    <id>urn:example:new</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <content type="text">The latest additions to the library.</content>
+    <link rel="http://opds-spec.org/sort/new" href="/opds/new" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  </entry>
+  <entry>
+    <title>By author &amp; series</title>
+    <id>urn:example:authors</id>
+    <link rel="subsection" href="/opds/authors" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  </entry>
+</feed>

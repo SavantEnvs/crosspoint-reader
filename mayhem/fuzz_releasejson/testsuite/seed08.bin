@@ -1,0 +1,9 @@
+ˆ{
+      "name": "Some Release",
+      "draft": false,
+      "assets": [{
+        "name": "firmware.bin",
+        "browser_download_url": "https://example.com/fw.bin",
+        "size": 1000
+      }]
+    }

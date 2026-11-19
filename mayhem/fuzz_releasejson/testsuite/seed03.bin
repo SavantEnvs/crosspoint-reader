@@ -1,0 +1,9 @@
+3{
+      "tag_name": "v1.0.0",
+      "assets": [
+        {"name": "source.tar.gz", "browser_download_url": "https://example.com/src.tar.gz", "size": 500000},
+        {"name": "docs.pdf", "browser_download_url": "https://example.com/docs.pdf", "size": 120000},
+        {"name": "firmware.bin", "browser_download_url": "https://example.com/firmware.bin", "size": 987654},
+        {"name": "checksums.txt", "browser_download_url": "https://example.com/checksums.txt", "size": 256}
+      ]
+    }

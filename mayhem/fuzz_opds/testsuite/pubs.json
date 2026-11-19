@@ -1,0 +1,36 @@
+#{
+  "metadata": {"title": "Popular", "numberOfItems": 120, "itemsPerPage": 20, "currentPage": 2},
+  "links": [
+    {"rel": "self", "href": "/opds2/popular?page=2", "type": "application/opds+json"},
+    {"rel": "first", "href": "/opds2/popular?page=1", "type": "application/opds+json"},
+    {"rel": "previous", "href": "/opds2/popular?page=1", "type": "application/opds+json"},
+    {"rel": "next", "href": "/opds2/popular?page=3", "type": "application/opds+json"},
+    {"rel": "last", "href": "/opds2/popular?page=6", "type": "application/opds+json"}
+  ],
+  "publications": [
+    {
+      "metadata": {"@type": "http://schema.org/Book", "identifier": "urn:isbn:9780141439518", "title": "Pride and Prejudice",
+        "author": {"name": "Jane Austen"}, "language": "en", "description": "A <b>classic</b> novel of manners.", "published": "1813-01-28"},
+      "links": [
+        {"rel": "http://opds-spec.org/acquisition/open-access", "href": "/books/1.epub", "type": "application/epub+zip"},
+        {"rel": "http://opds-spec.org/acquisition/open-access", "href": "/books/1.pdf", "type": "application/pdf"},
+        {"rel": "self", "href": "/pub/1.json", "type": "application/opds-publication+json"}
+      ],
+      "images": [{"href": "/covers/1.jpg", "type": "image/jpeg", "width": 400, "height": 600}]
+    },
+    {
+      "metadata": {"title": "Two Authors", "author": [{"name": "A. Writer"}, {"name": "B. Writer"}]},
+      "links": [{"rel": "http://opds-spec.org/acquisition/buy", "href": "/buy/2", "type": "application/opds-publication+json",
+                 "properties": {"price": {"currency": "USD", "value": 9.99}}}]
+    },
+    {
+      "metadata": {"title": "Plain author string", "author": "Solo Author"},
+      "links": [{"rel": "acquisition", "href": "/books/3.lcpl", "type": "application/vnd.readium.lcp.license.v1.0+json"}]
+    }
+  ],
+  "facets": [
+    {"metadata": {"title": "Sort"}, "links": [
+      {"title": "Title", "href": "/opds2/popular?sort=title", "type": "application/opds+json", "properties": {"numberOfItems": 120}},
+      {"title": "Newest", "href": "/opds2/popular?sort=new", "type": "application/opds+json", "rel": "self"}]}
+  ]
+}

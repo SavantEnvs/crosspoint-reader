@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="uid">test-epub-br-section-break</dc:identifier>
+    <dc:title>Test: br Section Break &amp; li/p</dc:title>
+    <dc:language>en</dc:language>
+  </metadata>
+  <manifest>
+    <item id="ch1" href="chapter1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch2" href="chapter2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch3" href="chapter3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch4" href="chapter4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch5" href="chapter5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch6" href="chapter6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch7" href="chapter7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch8" href="chapter8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch9" href="chapter9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+  </manifest>
+  <spine>
+    <itemref idref="ch1"/>
+    <itemref idref="ch2"/>
+    <itemref idref="ch3"/>
+    <itemref idref="ch4"/>
+    <itemref idref="ch5"/>
+    <itemref idref="ch6"/>
+    <itemref idref="ch7"/>
+    <itemref idref="ch8"/>
+    <itemref idref="ch9"/>
+  </spine>
+</package>

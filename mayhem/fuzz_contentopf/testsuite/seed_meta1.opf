@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="book-id">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="book-id">crosspoint-font-prewarm-benchmark</dc:identifier>
+    <dc:title>CrossPoint Font Prewarm Benchmark</dc:title>
+    <dc:language>en</dc:language>
+    <meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>
+  </metadata>
+  <manifest>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="css" href="style.css" media-type="text/css"/>
+    <item id="instructions" href="instructions.xhtml" media-type="application/xhtml+xml"/>
+    <item id="mixed" href="mixed.xhtml" media-type="application/xhtml+xml"/>
+    <item id="control" href="control.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="instructions"/>
+    <itemref idref="mixed"/>
+    <itemref idref="control"/>
+  </spine>
+</package>

@@ -1,0 +1,1 @@
+@{"metadata":{"title":{"en":"Hello","fr":"Bonjour","fr-CA":"Allo"}},"publications":[{"metadata":{"title":{"fr":"Livre","en":"Book"}},"links":[{"rel":"http://opds-spec.org/acquisition","href":"/b.epub","type":"application/epub+zip"}]}]}

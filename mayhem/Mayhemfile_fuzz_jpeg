@@ -1,0 +1,12 @@
+project: savantenvs/crosspoint-reader
+target: fuzz_jpeg
+duration: 1200
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_jpeg/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_jpeg
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="uid">test-epub-css-display-none-tests</dc:identifier>
+    <dc:title>CSS Display None Tests</dc:title>
+    <dc:language>en</dc:language>
+  </metadata>
+  <manifest>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="css" href="styles/test.css" media-type="text/css"/>
+    <item id="visible_png" href="images/visible.png" media-type="image/png"/>
+    <item id="hidden_class_png" href="images/hidden_class.png" media-type="image/png"/>
+    <item id="hidden_inline_png" href="images/hidden_inline.png" media-type="image/png"/>
+    <item id="hidden_parent_png" href="images/hidden_parent.png" media-type="image/png"/>
+    <item id="hidden_suppressed_png" href="images/hidden_suppressed.png" media-type="image/png"/>
+    <item id="override_visible_png" href="images/override_visible.png" media-type="image/png"/>
+    <item id="chapter1" href="chapter1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter2" href="chapter2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter3" href="chapter3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter4" href="chapter4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter5" href="chapter5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter6" href="chapter6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter7" href="chapter7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter8" href="chapter8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter9" href="chapter9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter10" href="chapter10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter11" href="chapter11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter12" href="chapter12.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="chapter1"/>
+    <itemref idref="chapter2"/>
+    <itemref idref="chapter3"/>
+    <itemref idref="chapter4"/>
+    <itemref idref="chapter5"/>
+    <itemref idref="chapter6"/>
+    <itemref idref="chapter7"/>
+    <itemref idref="chapter8"/>
+    <itemref idref="chapter9"/>
+    <itemref idref="chapter10"/>
+    <itemref idref="chapter11"/>
+    <itemref idref="chapter12"/>
+  </spine>
+</package>
